@@ -149,10 +149,6 @@ while True:
         ball.goto(0, 0)
         ball.dx = 0
         ball.dy = 0
-
-
-
-
     elif score_b == 3:
         pen.clear()
         pen.write("Player B wins with {} to {}".format(score_b, score_a), align="center", font=("Courier", 24, "normal"))
